@@ -10,7 +10,7 @@
         <?php
             $nombre = 1;
             for ($nombre = 1; $nombre <= 8; $nombre++) {
-                for ($nombre1 = 1; $nombre1 <= $nombre; $nombre1++) {
+                for ($second_nombre = 1; $second_nombre <= $nombre; $second_nombre++) {
                         echo "*";
                     }
                 echo "<br>";
