@@ -7,12 +7,10 @@
         <title>Exercise_2 Motif Utilisant Des Boucles For </title>
     </head>
     <body>
-        <?php  
+        <?php
             $nombre = 1;
-            for($nombre=1;$nombre<=8;$nombre++)
-            {
-                for ($nombre1=1;$nombre1<=$nombre;$nombre1++)
-                    {
+            for ($nombre = 1; $nombre <= 8; $nombre++) {
+                for ($nombre1 = 1; $nombre1 <= $nombre; $nombre1++) {
                         echo "*";
                     }
                 echo "<br>";

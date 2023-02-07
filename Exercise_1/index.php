@@ -13,17 +13,17 @@
       <button type="submit" name ="submit" value ="valider">send</button>
       </form>
 
-  <?php
-      if ( isset( $_POST['submit'] ) ) 
-      { 
-        $fact = 1;
-        for ($i = 1; $i <= $_POST['noms']; $i++) 
-        {
-          $fact = $fact * $i;
-        } 
-        echo 'Le factoriel de ' . $_POST['noms']  . ' est ' . $fact;
-      }
-  ?>
+      <?php
+          if (isset( $_POST['submit'])) 
+          { 
+            $fact = 1;
+            for ($i = 1; $i <= $_POST['noms']; $i++) 
+            {
+              $fact = $fact * $i;
+            } 
+            echo 'Le factoriel de ' . $_POST['noms']  . ' est ' . $fact;
+          }
+      ?>
       
   </body>
 </html>
