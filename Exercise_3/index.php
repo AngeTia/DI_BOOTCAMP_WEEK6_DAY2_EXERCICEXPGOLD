@@ -21,7 +21,7 @@
                     //return small number.
                     return ceil($_POST['noms'] / 100);
                 } 
-                echo  " nous sommes  au " .getCentury(). "siècle </br>";
+                echo  " nous sommes  au ".getCentury()."siècle </br>";
             }
         ?>
     </body>
